@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600&family=Tiro+Kannada:ital@0;1&display=swap');
+
+
+body{
+    background-color: #ebebeb;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+}
+
 
 .collapsible {
-  background-color: #777;
+  background-color: rgb(61, 59, 59);
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -8,7 +16,8 @@
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 4vh;
+  font-family: 'Tiro Kannada', serif;
 }
 
 .active, .collapsible:hover {
@@ -16,7 +25,7 @@
 }
 
 .collapsible:after {
-  content: '\002B';
+  content: '\2304';
   color: white;
   font-weight: bold;
   float: right;
@@ -24,7 +33,7 @@
 }
 
 .active:after {
-  content: "\2212";
+  content: "\2303";
 }
 
 .content {
@@ -32,5 +41,38 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: #f1f1f13f;
+}
+
+
+
+.title{
+    font-family: 'Tiro Kannada', serif;
+    text-align: center;
+    font-size: 6vh;
+    margin: 0px;
+    background-color: rgba(42, 41, 41, 0.492);
+}
+
+.arabic {
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: 6vh;
+    text-align: right;
+}
+
+.transliteration{
+    font-family: 'Tiro Kannada', serif;
+    font-size: 4vh;
+    text-align: right;
+}
+
+.translation{
+    font-family: 'Tiro Kannada', serif;
+    font-size: 4vh;
+
+}
+
+.reference{
+    font-family: 'Tiro Kannada', serif;
+    font-size: 3vh;
 }
