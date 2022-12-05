@@ -18,6 +18,8 @@ body{
   outline: none;
   font-size: 4vh;
   font-family: 'Tiro Kannada', serif;
+  margin-bottom: 2px;
+  border-radius: 5px;
 }
 
 .active, .collapsible:hover {
@@ -52,6 +54,7 @@ body{
     font-size: 6vh;
     margin: 0px;
     background-color: rgba(42, 41, 41, 0.492);
+    border-radius: 5px;
 }
 
 .arabic {
