@@ -56,25 +56,29 @@ body{
 
 .arabic {
     font-family: 'Noto Naskh Arabic', serif;
-    font-size: 6vh;
+    font-size: 4vh;
     text-align: right;
 }
 
 .transliteration{
     font-family: 'Tiro Kannada', serif;
-    font-size: 4vh;
+    font-size: 3vh;
     text-align: right;
 }
 
 .translation{
     font-family: 'Tiro Kannada', serif;
-    font-size: 4vh;
+    font-size: 3vh;
 
 }
 
 .reference{
     font-family: 'Tiro Kannada', serif;
-    font-size: 3vh;
+    font-size: 2.7vh;
+}
+
+.duaNo{
+    font-size: 2.7vh;
 }
 
 
